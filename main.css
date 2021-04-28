@@ -1,4 +1,110 @@
-h1{
+h3{
     font-size: 20px;
-    color: aqua;
+    color: rgb(36, 35, 35);
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
+
+body{
+    background:linear-gradient(to top right,#C6C5B9,#62929E);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+}
+
+img{
+    max-width: 350px;
+    max-height: 400px;
+    margin:20px;
+    transition:all .4s ease;
+    
+}
+img:hover{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+}
+.Info{
+    background: #00000038;
+    margin-top: 140px;
+    height: 450px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+.fa-facebook{
+    font-size: 50px;
+    color: #1196f5;
+}
+
+.fa-github{
+    font-size: 50px;
+    color: black;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: #e64d5a;
+}
+
+a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.links{
+    margin:auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.intro{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto' bold, sans-serif;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Roboto' bold, sans-serif;
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+ .navbar{
+     margin:0;
+     top: 0;
+ } 
