@@ -22,20 +22,28 @@ img{
     transition:all .4s ease;
     
 }
+i{
+    transition:all .4s ease;
+}
+i:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
 img:hover{
-    transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
 }
 .Info{
     background: #00000038;
     margin-top: 140px;
-    height: 450px;
-    width: 1200px;
+    max-height: 450px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    
+    display: flex; 
 }
 
 .fa-facebook{
@@ -88,23 +96,23 @@ ul {
     top: 0;
 }
   
-  li {
+li {
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #111;
-  }
- .navbar{
+}
+.navbar{
      margin:0;
      top: 0;
- } 
+} 
